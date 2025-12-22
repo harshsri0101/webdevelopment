@@ -1,0 +1,132 @@
+/* Welcome to CodeSynq! */
+/* CSS - Cascading Style Sheets */
+/* Press Ctrl+Space for property suggestions */
+
+/* Reset and Base Styles */
+label{
+    font-size: 25px;
+}
+.container{
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.container:hover{
+    border: 5px solid crimson;
+}
+
+.header-font{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+option{
+    background-color: crimson;
+    color: white;
+}
+option:hover{
+    background-color: white;
+}
+input{
+    border: 2px solid black;
+    border-radius: 20PX;
+    padding-left: 10px;
+    transition: ease-in-out;
+}
+input:hover{
+    border: 2px dotted crimson;
+}
+input:focus {
+    outline: none;
+  border: 2px solid crimson;
+  transform: scale(0.5s);
+}
+
+.firstname{
+    margin-right: 20px;
+    height: 22px;
+}
+.first-label{
+    margin-left: -50px;
+}
+.lastname{
+    height: 25px;
+}
+.last-label{
+    margin-left: 70px;
+}
+.gender{
+    margin-left: -110px;
+    margin-bottom: -25px;
+}
+select{
+    width: 200px;
+    border:2px solid black;
+    border-radius: 25px;
+    appearance: none;
+    background-color: white;
+    color: crimson;
+    padding-left: 12px;
+}
+.hobbies{
+    margin-left: -300px;
+
+}
+.check{
+    font-size: 15px;
+}
+#hobies{
+    accent-color: crimson;
+}
+
+.gmail{
+    margin-right: 140px;
+}
+.pincode{
+    margin-right: 120px;
+}
+.mobileno{
+    margin-right:105px;
+}
+.submit{
+    margin-right: 40px;
+    
+}
+.submit-btn{
+    color:white;
+   background-color: crimson;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border-color: white;
+}
+.submit-btn:hover{
+    border-color: crimson;
+    background-color: white;
+    color: crimson;
+    font-weight: bold;
+}
+.reset{
+    height: 30px;
+    width: 70px;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    background-color: white;
+    color: crimson;
+    transition: 0.5s;
+    transform: ease;
+}
+.reset:hover{
+    transform: scale(1.25);
+    border-color: white;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}

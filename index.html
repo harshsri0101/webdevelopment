@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSynq - HTML Page</title>
+    <style></style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><center>
+<div class="container">
+   <form name="application" class="form" method="post">
+        <h1 class="header-font">Application form<h1>
+            <label for="firstname" class="first-label">First Name</label>
+            <label for="lastname" class="last-label">Last Name</label><br>
+            <input  type="text" class="firstname" placeholder="first Name" required>
+            <input class="lastname" type="text" placeholder="last Name" required><br>
+            <div class="gender">
+                <label id="gender">Gender</label>
+                 <select   id="gender" required>
+                <option>----------</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+                </select>
+            </div>
+                <br>
+                    <label class="hobbies" id="hobies">Hobbies:</label>
+                    <div class="check" required>
+                    <input type="checkbox" id="hobies">Badminton
+                    <input type="checkbox" id="hobies">Basketball
+                    <input type="checkbox" id="hobies">Football
+                    <input type="checkbox" id="hobies">Cricket
+            </div>
+
+            <div class="gmail">
+                <label>Email</label>
+                <input type="email" placeholder="enter you Email" required>
+            </div>
+
+            <div class="pincode">
+                <label>Pincode</label>
+                <input type="text" maxlength="6" required>
+            </div>
+
+            <div class="mobileno">
+                <label>Mobile no</label>
+                <input type ="tel" maxlength="10" required>
+            </div>
+            <div class="submit">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+            </div>
+    </form>              
+
+ </div></center>
+   
+</body>
+</html>
